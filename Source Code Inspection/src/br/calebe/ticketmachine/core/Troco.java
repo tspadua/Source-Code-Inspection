@@ -7,7 +7,7 @@ import br.calebe.ticketmachine.core.PapelMoeda;
  *
  * @author Calebe de Paula Bianchini
  */
-class Troco {
+public class Troco {
 
     protected PapelMoeda[] papeisMoeda;  //[erro] inic
 
