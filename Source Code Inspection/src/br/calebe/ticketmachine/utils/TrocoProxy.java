@@ -11,5 +11,9 @@ public class TrocoProxy extends Troco {
     public PapelMoeda[] getPapelMoeda() {
         return(papeisMoeda);
     }
+
+    public void setPapelMoeda(PapelMoeda[] obj) {
+        papeisMoeda = obj;
+    }
     
 }
