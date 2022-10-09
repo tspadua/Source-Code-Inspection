@@ -1,6 +1,6 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>src.br.calebe.ticketmachine</groupId>
+    <groupId>Source Code Inspection.src.br.calebe.ticketmachine</groupId>
     <artifactId>ticket-machine</artifactId>
     <version>1</version>
     <dependencies>
@@ -18,8 +18,8 @@
         </dependency>
     </dependencies>
     <build>
-        <sourceDirectory>src.br.calebe.ticketmachine</sourceDirectory>
-        <testSourceDirectory>src.br.calebe.ticketmachine.tests</testSourceDirectory>
+        <sourceDirectory>Source Code Inspection.src.br.calebe.ticketmachine</sourceDirectory>
+        <testSourceDirectory>Source Code Inspection.src.br.calebe.ticketmachine.tests</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
