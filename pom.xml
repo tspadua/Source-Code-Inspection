@@ -18,8 +18,8 @@
         </dependency>
     </dependencies>
     <build>
-        <sourceDirectory>br.calebe.ticketmachine</sourceDirectory>
-        <testSourceDirectory>br.calebe.ticketmachine/tests</testSourceDirectory>
+        <sourceDirectory>src.br.calebe.ticketmachine</sourceDirectory>
+        <testSourceDirectory>src.br.calebe.ticketmachine.tests</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
