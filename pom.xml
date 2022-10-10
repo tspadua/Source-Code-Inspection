@@ -1,6 +1,6 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>br.calebe.ticketmachine.core</groupId>
+    <groupId>br.calebe.ticketmachine</groupId>
     <artifactId>ticket-machine</artifactId>
     <version>1</version>
     <dependencies>
@@ -18,7 +18,7 @@
         </dependency>
     </dependencies>
     <build>
-        <sourceDirectory>./src/br/calebe/ticketmachine/core</sourceDirectory>
+        <sourceDirectory>./src/br/calebe/ticketmachine</sourceDirectory>
         <testSourceDirectory>./src/br/calebe/ticketmachine/tests</testSourceDirectory>
         <plugins>
             <plugin>
@@ -38,10 +38,6 @@
             </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
